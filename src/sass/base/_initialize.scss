@@ -1,0 +1,8 @@
+// ======
+// Base Initialize
+// ======
+
+@forward '../../../node_modules/mbmcss/base-initialize/base.initialize.scss' with (
+  $base-initialize-box-sizing: 'border-box',
+  $base-initialize-heading-size: false,
+);

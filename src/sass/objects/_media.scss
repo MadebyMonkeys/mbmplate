@@ -1,0 +1,22 @@
+@use '../settings' as *;
+
+// ========================================
+// Media Object
+// ========================================
+
+@forward '../../../node_modules/mbmcss/objs-media/objects.media' with (
+	$objs-media-namespace: "media",
+	$objs-media-fixed-name: "fixed",
+	$objs-media-fluid-name: "fluid",
+
+	$objs-media-gap-name: "-gap",
+	$objs-media-gap-default: $global-spacing,
+	$objs-media-gap-extra: (),
+
+	$objs-media-res: $global-responsive-classes,
+	$objs-media-responsive-name: "res",
+	$objs-media-collapse-at: 40em,
+
+	$objs-media-rev: $global-responsive-classes,
+	$objs-media-reversed-name: "rev",
+);

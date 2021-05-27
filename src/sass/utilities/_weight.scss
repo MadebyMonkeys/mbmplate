@@ -1,0 +1,10 @@
+@use '../settings' as *;
+
+// ========================================
+// Weight Utilities
+// ========================================
+
+@forward '../../../node_modules/mbmcss/utils-weight/utilities.weight' with (
+  $utils-weight-namespace: "weight-",
+  $utils-weight-properties: (),
+);

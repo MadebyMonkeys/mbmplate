@@ -1,0 +1,18 @@
+// ========================================
+// Justify-content Utilities
+// ========================================
+
+@use '../settings' as *;
+
+@forward '../../../node_modules/mbmcss/utils-justify-content/utilities.justify-content' with (
+  $utils-justify-content-namespace: "jc-",
+$utils-justify-content-values: (
+	start: flex-start,
+	end: flex-end,
+	between: space-between,
+	around: space-around,
+),
+
+$utils-justify-content-res: false,
+$utils-justify-content-breakpoints: $global-breakpoints,
+);

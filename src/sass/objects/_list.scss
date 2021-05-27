@@ -1,0 +1,25 @@
+@use '../settings' as *;
+
+// ========================================
+// List Object
+// ========================================
+
+// List Variables ----------------------------------------------------------- //
+
+@forward '../../../node_modules/mbmcss/objs-list/objects.list' with (
+  $objs-list-namespace: "list",
+  $objs-list-name-item: "item",
+
+  $objs-list-name-block: "block",
+  $objs-list-name-inline: "inline",
+  $objs-list-name-gap: "-gap",
+
+  $objs-list-align-name-middle: "middle",
+  $objs-list-align-name-bottom: "bottom",
+
+  $objs-list-gap-default: $global-spacing,
+  $objs-list-gap-extra: (),
+
+  $objs-list-block: false,
+  $objs-list-inline: false,
+);

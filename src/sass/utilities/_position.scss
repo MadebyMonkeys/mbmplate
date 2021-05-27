@@ -1,0 +1,19 @@
+// ========================================
+// Position Utilities
+// ========================================
+
+@use '../settings' as *;
+
+@forward '../../../node_modules/mbmcss/utils-position/utilities.position' with (
+  $utils-position-namespace: "",
+  $utils-positions: (
+    relative: relative,
+    absolute: absolute,
+    fixed: fixed,
+    static: static,
+    sticky: sticky,
+  ),
+
+  $utils-position-res: false,
+  $utils-position-breakpoints: $global-breakpoints,
+);

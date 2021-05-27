@@ -1,0 +1,11 @@
+@use '../settings' as *;
+
+// ========================================
+// Type Object
+// ========================================
+
+@forward '../../../node_modules/mbmcss/objs-type/objects.type' with (
+  $objs-type-namespace: "type-",
+  $objs-type-sizes: (),
+  $objs-type-breakpoints: $global-breakpoints,
+);

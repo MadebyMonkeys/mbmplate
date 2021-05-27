@@ -1,0 +1,20 @@
+// ========================================
+// Display Utilities
+// ========================================
+
+@use '../settings' as *;
+
+@forward '../../../node_modules/mbmcss/utils-display/utilities.display' with (
+  $utils-display-namespace: "",
+
+  $utils-display-options: (
+    flex: flex,
+    block: block,
+    inline: inline,
+    inline-block: inline-block,
+    hidden: none,
+  ),
+
+  $utils-display-res: $global-responsive-classes,
+  $utils-display-breakpoints: $global-breakpoints,
+);

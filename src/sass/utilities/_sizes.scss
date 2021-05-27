@@ -1,0 +1,14 @@
+@use '../settings' as *;
+
+// ========================================
+// Sizes Utilities
+// ========================================
+
+@forward '../../../node_modules/mbmcss/utils-sizes/utilities.sizes' with (
+	$utils-sizes-namespace: "",
+
+	$utils-sizes-res: $global-responsive-classes,
+	$utils-sizes-columns: $global-columns,
+	$utils-sizes-delimiter: $global-delimiter,
+	$utils-sizes-breakpoints: $global-breakpoints,
+);

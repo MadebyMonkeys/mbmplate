@@ -1,0 +1,15 @@
+@use '../settings' as *;
+
+// ========================================
+// Container Object
+// ========================================
+
+@use '../../../node_modules/mbmcss/objs-container/objects.container' with (
+	$objs-container-namespace: "container",
+
+	$objs-container-gap-default: $global-spacing,
+	$objs-container-gap-extra: (),
+
+	$objs-container-size-default: 1000px,
+	$objs-container-size-extra: (),
+);

@@ -1,0 +1,27 @@
+@use '../settings' as *;
+
+// ========================================
+// Grid Object
+// ========================================
+
+@forward '../../../node_modules/mbmcss/objs-grid/objects.grid' with (
+	// Namespaces
+	$objs-grid-namespace: "grid",
+	$objs-grid-name-cell: "cell",
+	$objs-grid-name-gap: "-gap",
+
+	$objs-grid-rev: "rev",
+
+	// Alignment namespaces
+	$objs-grid-alignments: (
+		right: "justify-content: flex-end",
+		center: "justify-content: center",
+		top: "align-items: flex-start",
+		middle: "align-items: center",
+		bottom: "align-items: flex-end",
+		around: "justify-content: space-around",
+		between: "justify-content: between",
+	),
+
+	$objs-grid-gap-extra: (),
+);

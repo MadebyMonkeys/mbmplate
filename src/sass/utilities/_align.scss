@@ -1,0 +1,18 @@
+// ========================================
+// Align Utilities
+// ========================================
+
+@use '../settings' as *;
+
+@forward '../../../node_modules/mbmcss/utils-align/utilities.align' with (
+  $utils-align-namespace: "align-",
+$utils-alignments: (
+	top: top,
+	middle: middle,
+	bottom: bottom,
+	baseline: baseline,
+),
+
+$utils-align-res: false,
+$utils-align-breakpoints: $global-breakpoints,
+);

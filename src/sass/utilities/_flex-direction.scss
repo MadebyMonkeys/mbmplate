@@ -1,0 +1,18 @@
+// ========================================
+// Flex-direction Utilities
+// ========================================
+
+@use '../settings' as *;
+
+@forward '../../../node_modules/mbmcss/utils-flex-direction/utilities.flex-direction' with (
+  $utils-flex-direction-namespace: "fd-",
+  $utils-flex-directions: (
+    row: row,
+    row-reverse: row-reverse,
+    col: column,
+    col-reverse: column-reverse,
+  ),
+
+  $utils-flex-direction-res: false,
+  $utils-flex-direction-breakpoints: $global-breakpoints,
+);

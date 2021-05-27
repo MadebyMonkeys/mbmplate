@@ -1,0 +1,12 @@
+// ========================================
+// Color Utilities
+// ========================================
+
+@use '../settings' as *;
+
+@forward '../../../node_modules/mbmcss/utils-colors/utilities.colors' with (
+	$utils-color-namespace: "color-",
+	$utils-color-bg-namespace: "bgcolor-",
+
+	$utils-colors-extra: (),
+);

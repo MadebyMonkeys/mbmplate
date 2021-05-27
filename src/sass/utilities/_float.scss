@@ -1,0 +1,17 @@
+@use '../settings' as *;
+
+// ========================================
+// Float Utilities
+// ========================================
+
+@forward '../../../node_modules/mbmcss/utils-float/utilities.float' with (
+  $utils-float-namespace: "float-",
+  
+  $utils-float-directions: (
+    left: "left",
+    right: "right",
+  ),
+
+  $utils-float-res: $global-responsive-classes,
+  $utils-float-breakpoints: $global-breakpoints,
+);

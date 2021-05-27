@@ -1,0 +1,31 @@
+// ========================================
+// Core Settings
+// ========================================
+
+@forward '../../../node_modules/mbmcss/setting-core/settings.core' with (
+  // Grid columns
+  $global-columns: (1, 2, 3, 4, 6,),
+
+  // Define the global namespaces
+  $global-utilities-namespace: "u-",
+  $global-compontents-namespace: "c-",
+  $global-objects-namespace: "o-",
+
+  // Define global padding
+  $global-spacing: 10px,
+
+  // Enable responsive classes
+  $global-responsive-classes: true,
+
+  // Define default breakpoints
+  $global-breakpoints: (
+    sm: "(min-width: 40em)",
+    md: "(min-width: 65em)",
+  ),
+
+  // Defines the default delimiter for Size, Push and Pull utilities
+  $global-delimiter: \/,
+
+  // Defines the default breakpoint separator
+  $global-breakpoint-separator: \@,
+);

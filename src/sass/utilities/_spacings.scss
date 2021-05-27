@@ -1,0 +1,28 @@
+@use '../settings' as *;
+
+// ========================================
+// Spacing Utilities
+// ========================================
+
+@forward '../../../node_modules/mbmcss/utils-spacings/utilities.spacings' with (
+	$utils-spacing-properties: (
+		"p": "padding",
+		"m": "margin",
+	),
+
+	$utils-spacing-directions: (
+		null: null,
+		"t": "-top",
+		"r": "-right",
+		"b": "-bottom",
+		"l": "-left",
+		"v": "-top" "-bottom",
+		"h": "-left" "-right",
+	),
+
+	$utils-spacing-size-default: $global-spacing,
+	$utils-spacing-size-extra: (),
+
+	$utils-spacing-responsive: $global-responsive-classes,
+	$utils-spacing-breakpoints: $global-breakpoints,
+);

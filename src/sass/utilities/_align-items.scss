@@ -1,0 +1,18 @@
+// ========================================
+// Align-items Utilities
+// ========================================
+
+@use '../settings' as *;
+
+@forward '../../../node_modules/mbmcss/utils-align-items/utilities.align-items' with (
+  $utils-align-items-namespace: "ai-",
+  $utils-align-items-alignments: (
+    start: flex-start,
+    center: center,
+    end: flex-end,
+    baseline: baseline,
+  ),
+
+  $utils-align-items-res: false,
+  $utils-align-items-breakpoints: $global-breakpoints,
+);

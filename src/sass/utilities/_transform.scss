@@ -1,0 +1,18 @@
+@use '../settings' as *;
+
+// ========================================
+// Transform Utilities
+// ========================================
+
+@forward '../../../node_modules/mbmcss/utils-transform/utilities.transform' with (
+  $utils-transform-namespace: "",
+  
+  $utils-transform-properties: (
+	capitalize: capitalize,
+	uppercase: uppercase,
+	lowercase: lowercase,
+  ),
+
+  $utils-transform-res: $global-responsive-classes,
+  $utils-transform-breakpoints: $global-breakpoints,
+);
