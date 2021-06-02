@@ -11,7 +11,7 @@ mkdir projectName && cd projectName
 
 2. Clone this repo with the git clone command:
 ```
-git clone https://gitlab.com/madebymonkeys/mbm-starter.git .
+git clone https://github.com/MadebyMonkeys/mbmplate.git .
 ```
 
 3. Install the mbmcss modules via npm:
