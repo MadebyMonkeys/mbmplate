@@ -21,7 +21,7 @@ npm install sass mbmcss css-minify
 ```
 
 
-*Optional:
+_Optional_:
 Add these lines under "scripts" in your pacakge.json
 
 ```
