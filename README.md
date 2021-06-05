@@ -19,3 +19,12 @@ git clone https://github.com/MadebyMonkeys/mbmplate.git .
 ```
 npm install sass mbmcss css-minify
 ```
+
+
+*Optional:
+Add these lines under "scripts" in your pacakge.json
+
+```
+"dev": "sass src/sass/main.scss:src/css/main.css",
+"build": "sass src/sass/main.scss:src/css/main.css && css-minify -d src/css/ -o dist/css/"
+```
