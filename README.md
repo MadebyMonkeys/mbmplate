@@ -25,6 +25,6 @@ _Optional_:
 Add these lines under "scripts" in your pacakge.json
 
 ```
-"dev": "sass src/sass/main.scss:src/css/main.css",
-"build": "sass src/sass/main.scss:src/css/main.css && css-minify -d src/css/ -o dist/css/"
+"dev": "sass src/sass/main.scss:src/css/mbmcss.css",
+"build": "sass src/sass/main.scss:src/css/mbmcss.css && css-minify -d src/css/ -o dist/css/"
 ```
