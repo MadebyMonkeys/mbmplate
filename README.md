@@ -22,7 +22,7 @@ npm install sass mbmcss css-minify
 
 
 _Optional_:
-Add these lines under "scripts" in your pacakge.json
+Add these lines under "scripts" in your package.json
 
 ```
 "dev": "sass src/sass/main.scss:src/css/mbmcss.css",
